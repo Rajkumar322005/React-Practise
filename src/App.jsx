@@ -2,7 +2,7 @@ import React from "react";
 import Prop from "./components/Props/prop.jsx";
 import UserCart from "./components/Usercarts/UserCart.jsx";
 import QRCodeGenerator from "./components/QRcode-Project/Qrcode.jsx";
-import Cart from "./components/Usestate/cart.jsx";
+import Cart from "./components/Usestate/CartPractise/Cart.jsx";
 import RegisterForm from "./components/Usestate/RegisterForm/RegisterForm.jsx";
 // import './Styles/QrCode.css';
 
@@ -13,7 +13,7 @@ const App = () => {
       {/* <UserCart/> */}
       {/* <QRCodeGenerator /> */}
       {/* <Cart/> */}
-      <RegisterForm/>
+      {/* <RegisterForm/> */}
     </div>
   );
 };
