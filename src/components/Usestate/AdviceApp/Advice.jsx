@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-// import './Advices.css';
+import './Advices.css';
 const Advice = () => {
     const [advice,setadvice] = useState("Please click Button to get Advice");
     const [count,setcount] = useState(0);
