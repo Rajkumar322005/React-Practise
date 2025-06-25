@@ -1,0 +1,59 @@
+/* Advices.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #eb3b5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  button {
+    border: none;
+    background-color: #3742fa;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-bottom: 15px;
+  }
+  
+  button:hover {
+    background-color: #2f35d1;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  b {
+    color:#2f35d1;
+    font-weight: bold;
+    margin-left: 3px;
+    margin-right: 4px;
+  }
+  

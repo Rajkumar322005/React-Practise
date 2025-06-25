@@ -4,6 +4,7 @@ import UserCart from "./components/Usercarts/UserCart.jsx";
 import QRCodeGenerator from "./components/QRcode-Project/Qrcode.jsx";
 import Cart from "./components/Usestate/CartPractise/Cart.jsx";
 import RegisterForm from "./components/Usestate/RegisterForm/RegisterForm.jsx";
+import Advice from "./components/Usestate/AdviceApp/Advice.jsx";
 // import './Styles/QrCode.css';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       {/* <QRCodeGenerator /> */}
       {/* <Cart/> */}
       {/* <RegisterForm/> */}
+      <Advice/>
     </div>
   );
 };
