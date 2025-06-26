@@ -11,7 +11,8 @@ const App = () => {
       {/* <Prop name = "Rajesh"></Prop> */}
       {/* <UserCart/> */}
       {/* <QRCodeGenerator /> */}
-      <Cart/>
+      {/* <Cart/> */}
+      <RegisterForm></RegisterForm>
     </div>
   );
 };
