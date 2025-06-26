@@ -3,6 +3,7 @@ import Prop from "./components/Props/prop.jsx";
 import UserCart from "./components/Usercarts/UserCart.jsx";
 import QRCodeGenerator from "./components/QRcode-Project/Qrcode.jsx";
 import Cart from "./components/Usestate/cart.jsx";
+import RegisterForm from "./components/Usestate/RegisterForm/RegisterForm.jsx";
 // import './Styles/QrCode.css';
 
 const App = () => {
@@ -12,7 +13,7 @@ const App = () => {
       {/* <UserCart/> */}
       {/* <QRCodeGenerator /> */}
       {/* <Cart/> */}
-      <RegisterForm></RegisterForm>
+      <RegisterForm/>
     </div>
   );
 };
