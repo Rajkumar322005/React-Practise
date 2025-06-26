@@ -1,0 +1,196 @@
+/*--------------------------------------
+  1. Color Palette & Variables
+--------------------------------------*/
+
+:root {
+    /* Primary brand colors */
+    --color-primary: #5A67D8;
+    --color-secondary: #48BB78;
+    --color-accent: #ECC94B;
+  
+    /* Neutral colors */
+    --color-bg-light: #F7FAFC;
+    --color-bg-dark: #2D3748;
+    --color-text: #2D3748;
+    --color-text-inverse: #F7FAFC;
+    --color-border: #CBD5E0;
+  
+    /* Spacing scale */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+  
+    /* Border radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+  
+    /* Shadows */
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.06);
+  }
+  
+  /*--------------------------------------
+    2. Global Reset & Base Styles
+  --------------------------------------*/
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    background-color: #4240c5; /* dark background */
+    color: white;
+    color: var(--color-text);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-lg);
+  }
+  
+  /*--------------------------------------
+    3. App Container
+  --------------------------------------*/
+  .app-container {
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+  }
+  
+  /* Title */
+  .app-container h1 {
+    font-size: 1.75rem;
+    margin-bottom: var(--space-md);
+    color: var(--color-primary);
+  }
+  
+  /*--------------------------------------
+    4. QR Image
+  --------------------------------------*/
+  .qr-code-image {
+    display: block;
+    margin: var(--space-md) auto;
+    width: 150px;
+    height: 150px;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  /*--------------------------------------
+    5. Controls (Inputs & Buttons)
+  --------------------------------------*/
+  .controls {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+    margin-top: var(--space-lg);
+  }
+  
+  /* Labels */
+  .input-label {
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+    display: block;
+    text-align: left;
+  }
+  
+  /* Text inputs */
+  .controls input[type="text"],
+  .controls input[type="number"] {
+    width: 100%;
+    padding: var(--space-sm);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  .controls input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+  }
+  
+  /* Buttons */
+  button {
+    padding: var(--space-sm) var(--space-md);
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+  }
+  button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  /* Generate button */
+  .generate-button {
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+  }
+  .generate-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  /* Download button */
+  .download-button {
+    background-color: rgb(5, 172, 5);
+    color: var(--color-text-inverse);
+  }
+  .download-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  /*--------------------------------------
+    6. Footer
+  --------------------------------------*/
+  .footer {
+    margin-top: var(--space-lg);
+    font-size: 0.875rem;
+    color: var(--color-border);
+  }
+  .footer a {
+    color: var(--color-accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /*--------------------------------------
+    7. Responsive Adjustments
+  --------------------------------------*/
+  @media (max-width: 480px) {
+    .app-container {
+      padding: var(--space-md);
+    }
+    .controls {
+      gap: var(--space-sm);
+    }
+    .qr-code-image {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
