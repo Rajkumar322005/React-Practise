@@ -1,20 +1,21 @@
 import React, { useEffect, useState } from "react";
 import "./quiz.css";
-import Data from "./Quiz.json"; // Importing quiz data from a JSON file
+import Data from "./Quiz.json"; // JSON file
 
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
-  const [timer, setTimer] = useState(5); // 5 seconds timer
+  const [timer, setTimer] = useState(10); // 5 seconds timer
 
-  console.log(Data);
+  // console.log(Data);
 
   const handleAnswer = (option) => {
     if (option === Data[currentQuestion].answer) {
       setScore(score + 1);
     }
     if (currentQuestion < Data.length - 1) {
+      setTimer(10);
       setCurrentQuestion(currentQuestion + 1);
     } else {
       setShowScore(true);
@@ -30,7 +31,7 @@ const Quiz = () => {
     } else if (timer === 0) {
       if (currentQuestion < Data.length - 1) {
         setCurrentQuestion((prev) => prev + 1);
-        setTimer(5);
+        setTimer(10);
       } else {
         setShowScore(true);
       }
@@ -52,7 +53,7 @@ const Quiz = () => {
                 setCurrentQuestion(0);
                 setScore(0);
                 setShowScore(false);
-                setTimer(5);
+                setTimer(10);
               }}
             >
               Restart
