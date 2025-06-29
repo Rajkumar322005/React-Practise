@@ -9,6 +9,7 @@ const Child = () => {
     <div style = {{border: "2px solid black", padding: "20px", margin: "20px"}} >
         <h1>Child</h1>
         <h2>{value}</h2>
+        
         {/* Displaying the context value */}
         
         {/* The child component can access the context value provided by the Grandparent component */}
