@@ -5,8 +5,7 @@ import QRCodeGenerator from "./components/QRcode-Project/Qrcode.jsx";
 import Cart from "./components/Usestate/CartPractise/Cart.jsx";
 import RegisterForm from "./components/Usestate/RegisterForm/RegisterForm.jsx";
 import Advice from "./components/Usestate/AdviceApp/Advice.jsx";
-// import './Styles/QrCode.css';
-
+import Temp from "./components/UseEffect/baseTemp.jsx";
 const App = () => {
   return (
     <div>
@@ -15,7 +14,8 @@ const App = () => {
       {/* <QRCodeGenerator /> */}
       {/* <Cart/> */}
       {/* <RegisterForm/> */}
-      <Advice/>
+      {/* <Advice/> */}
+      <Temp/>
     </div>
   );
 };
