@@ -5,7 +5,9 @@ import QRCodeGenerator from "./components/QRcode-Project/Qrcode.jsx";
 import Cart from "./components/Usestate/CartPractise/Cart.jsx";
 import RegisterForm from "./components/Usestate/RegisterForm/RegisterForm.jsx";
 import Advice from "./components/Usestate/AdviceApp/Advice.jsx";
-import Temp from "./components/UseEffect/baseTemp.jsx";
+// import Temp from "./components/UseEffect/baseTemp.jsx";
+import Quiz from "./components/Quiz_app/Quiz.jsx";
+
 const App = () => {
   return (
     <div>
@@ -15,7 +17,9 @@ const App = () => {
       {/* <Cart/> */}
       {/* <RegisterForm/> */}
       {/* <Advice/> */}
-      <Temp/>
+      {/* <Temp/> */}
+      <Quiz/>
+
     </div>
   );
 };

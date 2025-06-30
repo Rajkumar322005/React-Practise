@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "question": "What is the capital of France?",
+        "options": [
+            "Berlin",
+            "Madrid",
+            "Paris",
+            "Rome"
+        ],
+        "answer": "Paris"
+    },
+    {
+        "id":1,
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "answer": "Jupiter"
+    },
+    {
+        "id": 3,
+        "question": "What is the chemical symbol for water?",
+        "options": [
+            "H2O",
+            "CO2",
+            "O2",
+            "NaCl"
+        ],
+        "answer": "H2O"
+    },
+    {
+        "id": 4,
+        "question": "What is the capital of Japan?",
+        "options": [
+            "Seoul",
+            "Beijing",
+            "Tokyo",
+            "Bangkok"
+        ],
+        "answer": "Tokyo"   
+    },
+    {
+        "id": 5,
+        "question": "What is the largest mammal?",
+        "options": [
+            "Elephant",
+            "Blue Whale",
+            "Giraffe",
+            "Great White Shark"
+        ],
+        "answer": "Blue Whale"
+    }
+]

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './Advices.css';
+// import './Advices.css';
 const Advice = () => {
     const [advice,setadvice] = useState("Please click Button to get Advice");
     const [count,setcount] = useState(0);
@@ -10,7 +10,6 @@ const Advice = () => {
         const data = await res.json();
         setadvice(data.slip.advice);
         setcount((count)=>count+1);
-
     }
     useEffect(function(){
         getAdvice();
