@@ -37,7 +37,7 @@ const Quiz = () => {
     }
 
     return () => clearInterval(interval); 
-  }, []);
+  }, [currentQuestion, timer, showScore]);
 
   return (
     <>
