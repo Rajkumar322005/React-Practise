@@ -1,5 +1,5 @@
 .header{
-    background-color: black;
+    background-color: #4834d4;
     color: white;
     font-family: Arial, sans-serif;
     padding: 10px 20px;
@@ -52,6 +52,7 @@
     padding: 16px;
     text-align: center;
     transition: transform 0.3s ease;
+    margin:20px;
   }
   
   .product-container:hover {
@@ -242,7 +243,7 @@
 
 .about-container h1 {
   font-size: 2.5rem;
-  color: #ff6347;
+  color: #4834d4;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -255,7 +256,7 @@
 }
 
 .about-container a {
-  color: #ff6347;
+  color: #4834d4;
   text-decoration: none;
   font-weight: bold;
 }

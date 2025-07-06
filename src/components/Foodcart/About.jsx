@@ -16,7 +16,7 @@ const About = () => {
       <p>Thank you for choosing us!</p>
       <p>
         Contact us at:
-        <a href="mailto:support@Tvshow.com"> support@Tvshow.com</a>
+        <a href="mailto:support@Zepisodes.com"> support@Tvshow.com</a>
       </p>
       <p>Follow us on social media:</p>
       <ul>
