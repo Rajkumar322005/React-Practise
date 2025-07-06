@@ -1,8 +1,9 @@
-import React from 'react'
+import {useContext} from 'react'
 import './Header.css'; // Assuming you have a CSS file for styling
+import {cartContext} from '../../App.jsx';
 const Product = (props) => {
   const { title, description, price, image } = props.product;
-  const { cart, setCart } = props;
+  const { cart, setCart } = useContext(cartContext);
   const addToCart = () => {
     setCart([...cart, props.product]);
   };

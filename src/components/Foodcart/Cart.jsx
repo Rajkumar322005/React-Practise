@@ -1,7 +1,7 @@
-import React,{useState} from 'react'
-
-const Cart = (props) => {
-  const { cart, setCart } = props;
+import React,{useContext, useState} from 'react'
+import {cartContext} from '../../App.jsx';
+const Cart = () => {
+  const { cart, setCart } = useContext(cartContext);
 
   const totalPrice = cart.reduce((acc, item) => acc + item.price, 0).toFixed(2);
 

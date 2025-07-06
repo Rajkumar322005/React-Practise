@@ -1,4 +1,4 @@
-import React,{useState}from 'react'
+import React,{useState,useContext}from 'react'
 import Product from './product'
 import './Header.css' // Assuming you have a CSS file for styling
 import data from"./products.json";

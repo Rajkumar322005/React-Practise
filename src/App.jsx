@@ -13,10 +13,10 @@ import About from "./components/Foodcart/About.jsx";
 import Cart from "./components/Foodcart/Cart.jsx";
 import Header from "./components/Foodcart/header.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import {useContext} from "react";
+export const cartContext = createContext();
+
 const App = () => {
   const [cart, setCart] = useState([]);
-  const cartContext = createContext();
 
   return (
     <div>
