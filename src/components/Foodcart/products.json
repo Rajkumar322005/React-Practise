@@ -68,5 +68,48 @@
     "description": "Goku learns shocking truths as his brother Raditz arrives on Earth.",
     "price": 2.49,
     "image": "/Product-Images/image10.png"
+  },
+  {
+    "id": 11,
+    "title": "Scooby Doo - Episode 1: The Arrival of Raditz",
+    "description": "Scooby Doo and the gang uncover shocking truths as Raditz arrives on Earth.",
+    "price": 2.49,
+    "image": "/Product-Images/image11.png"
+  },
+  {
+    "id": 12,
+    "title": "Incredibles - Episode 1: The Arrival of Raditz",
+    "description": "Incredibles learn shocking truths as his brother Raditz arrives on Earth.",
+    "price": 3.49,
+    "image": "/Product-Images/image12.png"
+  },
+  {
+    "id": 13,
+    "title": "Tom and Jerry - Episode 1: The Cat Concerto",
+    "description": "Jerry interrupts Tom’s piano concert in a classic chase sequence.",
+    "price": 1.29,
+    "image": "/Product-Images/image13.png"
+  },
+  {
+    "id": 14,
+    "title": "Pokemon - Episode 1: I Choose You!",
+    "description": "Ash Ketchum begins his journey as a Pokémon trainer and meets Pikachu.",
+    "price": 2.49,
+    "image": "/Product-Images/image14.png"
   }
+  {
+    "id": 15,
+    "title": "Oggy and the Cockroaches - Episode 1: French Fries Mayhem",
+    "description": "Oggy’s lunch is ruined by Dee Dee and the gang as chaos unfolds.",
+    "price": 0.89,
+    "image": "/Product-Images/image14.png"
+  },
+  {
+    "id": 16,
+    "title": "Motu Patlu - Episode 1: The Arrival of Lion",
+    "description": "Motu and Patlu face a new challenge when a lion arrives in Furfuri Nagar.",
+    "price": 4.49,
+    "image": "/Product-Images/image15.png"
+  }
+
 ]
