@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Ben 10 - Episode 1: And Then There Were 10",
+    "description": "Ben discovers the Omnitrix and transforms into a hero for the first time.",
+    "price": 1.99,
+    "image": "/Product-Images/image1.png"
+  },
+  {
+    "id": 2,
+    "title": "Chhota Bheem - Episode 1: The Magical Dholakpur",
+    "description": "Bheem and his friends face off against a mysterious magician in Dholakpur.",
+    "price": 0.99,
+    "image": "/Product-Images/image2.png"
+  },
+  {
+    "id": 3,
+    "title": "Jackie Chan Adventures - Episode 1: The Dark Hand",
+    "description": "Jackie and Jade discover the power of the Talismans while being chased by The Dark Hand.",
+    "price": 1.49,
+    "image": "/Product-Images/image3.png"
+  },
+  {
+    "id": 4,
+    "title": "Doraemon - Episode 1: Nobita’s Dinosaur Adventure",
+    "description": "Nobita uses Doraemon’s time machine to bring a baby dinosaur to the future.",
+    "price": 1.29,
+    "image": "/Product-Images/image4.png"
+  },
+  {
+    "id": 5,
+    "title": "Shinchan - Episode 1: Trouble at the Mall",
+    "description": "Shinchan creates chaos at a local shopping mall while his parents try to shop.",
+    "price": 0.99,
+    "image": "/Product-Images/image5.png"
+  },
+  {
+    "id": 6,
+    "title": "Pokemon - Episode 1: I Choose You!",
+    "description": "Ash Ketchum begins his journey as a Pokémon trainer and meets Pikachu.",
+    "price": 1.99,
+    "image": "/Product-Images/image6.png"
+  },
+  {
+    "id": 7,
+    "title": "Motu Patlu - Episode 1: Welcome to Furfuri Nagar",
+    "description": "Motu and Patlu’s silly antics cause hilarious trouble in their hometown.",
+    "price": 0.79,
+    "image": "/Product-Images/image7.png"
+  },
+  {
+    "id": 8,
+    "title": "Tom and Jerry - Episode 1: The Cat Concerto",
+    "description": "Jerry interrupts Tom’s piano concert in a classic chase sequence.",
+    "price": 1.29,
+    "image": "/Product-Images/image8.png"
+  },
+  {
+    "id": 9,
+    "title": "Oggy and the Cockroaches - Episode 1: French Fries Mayhem",
+    "description": "Oggy’s lunch is ruined by Dee Dee and the gang as chaos unfolds.",
+    "price": 0.89,
+    "image": "/Product-Images/image9.png"
+  },
+  {
+    "id": 10,
+    "title": "Dragon Ball Z - Episode 1: The Arrival of Raditz",
+    "description": "Goku learns shocking truths as his brother Raditz arrives on Earth.",
+    "price": 2.49,
+    "image": "/Product-Images/image10.png"
+  }
+]

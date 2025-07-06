@@ -1,4 +1,4 @@
-import React from "react";
+import React,{createContext, useContext, useState} from "react";
 // import Prop from "./components/Props/prop.jsx";
 // import UserCart from "./components/Usercarts/UserCart.jsx";
 // import QRCodeGenerator from "./components/QRcode-Project/Qrcode.jsx";
@@ -13,8 +13,11 @@ import About from "./components/Foodcart/About.jsx";
 import Cart from "./components/Foodcart/Cart.jsx";
 import Header from "./components/Foodcart/header.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
+import {useContext} from "react";
 const App = () => {
+  const [cart, setCart] = useState([]);
+  const cartContext = createContext();
+
   return (
     <div>
       {/* <Prop name = "Rajesh"></Prop> */}
@@ -26,6 +29,7 @@ const App = () => {
       {/* <Temp/> */}
       {/* <Quiz/> */}
       {/* <Grandparent /> */}
+      <cartContext.Provider value={{ cart, setCart }}>    
       <BrowserRouter>
         <Header />
         <Routes>
@@ -34,6 +38,7 @@ const App = () => {
           <Route path="/About" element={<About />} />
         </Routes>
       </BrowserRouter>
+      </cartContext.Provider>
     </div>
   );
 };

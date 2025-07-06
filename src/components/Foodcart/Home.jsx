@@ -1,8 +1,16 @@
-import React from 'react'
-
+import React,{useState}from 'react'
+import Product from './product'
+import './Header.css' // Assuming you have a CSS file for styling
+import data from"./products.json";
 const Home = () => {
+  const [products] = useState(data);
   return (
-    <div>Home</div>
+    <div className="product-list">
+      {products.map((product) => (
+        <Product key={product.id} product={product} />
+      ))}
+    </div>
+
   )
 }
 
